@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Native development involving the `useEffect` hook. The `bug.js` file showcases the incorrect implementation, while `bugSolution.js` provides the corrected version. The issue arises from directly modifying the state variable within the effect function.  The solution involves using `setCount` to update the state correctly.
